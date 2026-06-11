@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Atandare Oluwatimilehin</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header
+      class="d-flex justify-space-between align-items-center p-inline-1rem"
+    >
+      <h3 class="my-name">
+        <span class="fw-bold">Oluwatimilehin</span>Atandare
+      </h3>
+
+      <ul class="nav-links d-flex">
+        <li><a href="#" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#work" class="nav-link">Work</a></li>
+      </ul>
+
+      <a href="https://github.com/Timdare" class="social-link">
+        <!--<img src="images/github_icon.png" alt="Github icon"
+        />-->
+        <i class="fa-brands fa-github fa-2x" style="color: white"></i>
+      </a>
+      <span class="fa-solid fa-bars fa-2x hamburger-menu" id="toggle-btn"></span>
+    </header>
+
+    <!-- MOBILE NAVIGATION CONTAINER -->
+    <aside class="mobile-nav-container">
+      <ul class="mobile-nav-links d-flex">
+        <li><a href="#" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#work" class="nav-link">Work</a></li>
+      </ul>
+    </aside>
+
+    <!-- INTRO CONTAINER -->
+    <section class="d-flex intro-container container">
+      <div class="my-intro w-50">
+        <p>Hello, I'm Timilehin</p>
+        <h1 class="grey-text fw-bold">Front end Deve&shy;loper</h1>
+        <a href="#contactMe">Contact Me</a>
+      </div>
+      <div class="my-image-container w-50">
+        <img
+          src="images/my-image.png"
+          alt="A pic of Timilehin"
+          class="my-image"
+        />
+      </div>
+    </section>
+
+    <!-- ABOUT CONTAINER -->
+    <section class="p-inline-1rem about-container container" id="about">
+      <div class="about-header d-flex align-items-center header">
+        <h1 class="grey-text">about</h1>
+        <hr />
+      </div>
+      <p>
+        I am currently a 300level computer science student of the Lagos State
+        University with a passion for web development. I have mastered the basic
+        front-end tools (HTML, CSS and Js) by developing few projects. My goal
+        is to have the knowledge of a front end framework and a few backend
+        technologies to eventually become a full-stack developer.
+      </p>
+      <p>Here are some of the skills I possess:</p>
+
+      <div class="skills-container">
+        <div class="skill text-align-center">
+          <h2 class="skill-text text-align-center">Front-End</h2>
+          <p class="skill-experience">60+ Hours Experience</p>
+        </div>
+        <div class="skill text-align-center">
+          <h2 class="skill-text">Python</h2>
+          <p class="skill-experience">4 Years Experience</p>
+        </div>
+        <div class="skill text-align-center">
+          <h2 class="skill-text">Machine Learning</h2>
+          <p class="skill-experience">120+ Hours Experience</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK CONTAINER -->
+    <section class="container" id="work">
+      <div class="header d-flex align-items-center">
+        <h1 class="grey-text">work</h1>
+        <hr />
+      </div>
+      <p>
+        I have built a few projects to practise with the knowledge I have. The
+        most interesting of them being a movie finder app that lets you lookup
+        movies and decide if you are interested in watching them.
+      </p>
+      <p>Here are a few of my projects:</p>
+      <div class="projects-container d-flex justify-content-center">
+        <div class="project-container">
+          <div class="project-img-container">
+            <img
+              src="images/screenshot_movie_finder.png"
+              alt="movie-finder project image"
+              class="project-img"
+            />
+          </div>
+
+          <div class="brief-desc">
+            <h5 class="uppercase m-0">Movie Finder</h5>
+            <span class="uppercase m-0">html css javascript</span>
+          </div>
+        </div>
+        <div class="project-container">
+          <div class="project-img-container">
+            <img
+              src="images/screenshot_cgpa_simulator.png"
+              alt="cgpa simulator image"
+              class="project-img"
+            />
+          </div>
+
+          <div class="brief-desc">
+            <h5 class="uppercase m-0">CGPA Simulator</h5>
+            <span class="uppercase m-0">html css javascript</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT ME CONTAINER -->
+    <section class="container contact-container" id="contactMe">
+      <div class="header d-flex align-items-center">
+        <h1 class="grey-text">Contact&nbsp;Me</h1>
+        <hr />
+      </div>
+      <h2 class="text-align-center">Do you have a project to get done?</h2>
+      <p>
+        I would love to hear about your project and how I can help. Please fill
+        the form, and I'll get back to you as soon as possible.
+      </p>
+      <form class="contact-form">
+        <div>
+          <label for="name" class="uppercase grey-text">name</label>
+          <input type="text" id="name" name="name" />
+        </div>
+        <div>
+          <label for="email" class="uppercase grey-text">email</label>
+          <input type="email" id="email" name="email" />
+        </div>
+        <div>
+          <label for="message" class="uppercase grey-text">message</label>
+          <textarea id="message" name="message" rows="4" cols="4"></textarea>
+        </div>
+        <div class="btn-container text-align-center">
+          <button class="submit-btn uppercase">send message</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer
+      class="d-flex justify-space-between align-items-center p-inline-1rem"
+    >
+      <h3 class="my-name">
+        <span class="fw-bold">Oluwatimilehin</span>Atandare
+      </h3>
+      <ul class="social-links d-flex disc-style-none">
+        <li>
+          <a href="#" class="social-link"
+            ><i class="fa-brands fa-facebook fa-2x" style="color: white"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#" class="social-link"
+            ><i class="fa-brands fa-instagram fa-2x" style="color: white"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://github.com/Timdare" class="social-link"
+            ><i class="fa-brands fa-github fa-2x" style="color: white"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    
+    <script src="hamburger.js"></script>
+  </body>
+</html>
