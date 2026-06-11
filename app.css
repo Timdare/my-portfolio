@@ -242,7 +242,7 @@ hr{
 .projects-container{
     gap: 1.5rem;
     flex-wrap: wrap;
-    max-width: 100%;
+    max-width: 90%;
     margin: auto auto;
 }
 .project-container{
