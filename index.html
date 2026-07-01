@@ -53,11 +53,16 @@
         <a href="#contactMe">Contact Me</a>
       </div>
       <div class="my-image-container w-50">
-        <img
-          src="images/my-image.png"
-          alt="A pic of Timilehin"
-          class="my-image"
-        />
+        <picture>
+          <source srcset="images/profile-avatar-image.avif" type="image/avif" class="my-image">
+          <source srcset="images/profile-avatar-image.png" type="image/png" class="my-image">
+          <img
+            src="images/profile-avatar-image.jpg"
+            alt="Profile avatar image"
+            class="my-image"
+          />
+        </picture>
+
       </div>
     </section>
 
