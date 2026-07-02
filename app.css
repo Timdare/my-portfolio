@@ -317,9 +317,9 @@ hr{
     }
 }
 @media (max-width: 600px) {
-    :root{
+    /* :root{
         font-size: 12px;
-    }
+    } */
     .nav-links, header .social-link{
         display: none;
     }
