@@ -329,8 +329,11 @@ hr{
     .my-intro h1{
         font-size: 2.5rem;
     }
-    .container > p{
+    .container{
         padding-inline: 2rem;
+        & > p{
+            padding-inline: 1rem;
+        }
     }
     .project-container{
         width: 100%;
