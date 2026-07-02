@@ -4,11 +4,11 @@ My portfolio website. It showcases projects done by me.
 
 It was built as a learning project while practising HTML and CSS.
 
-Click  to view the complete website
+Click [here](https://daredev-portfolio.netlify.app/) to view the complete website.
 
 ## Project Status 
 
-In progress - few updates would be added as a complete more projects.
+In progress - few updates would be added as I complete more projects.
 
 ## How to use 
  
