@@ -12,7 +12,7 @@ In progress - few updates would be added as I complete more projects.
 
 ## How to use 
  
-- Run `git clone https://github.com/Timdare/movie-finder.git` 
+- Run `git clone https://github.com/Timdare/my-portfolio.git` 
 - Open index.html
 
 ## Technologies Used 
